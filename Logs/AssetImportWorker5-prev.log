@@ -1,0 +1,915 @@
+Using pre-set license
+Built from '2022.2/staging' branch; Version is '2022.2.9f1 (1cc571a6ec95) revision 1885553'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32699 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+E:\Unity\2022.2.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+E:/Gits/voxLand
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+64898
+Successfully changed project path to: E:/Gits/voxLand
+E:/Gits/voxLand
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [36040] Host "[IP] 192.168.50.101 [Port] 0 [Flags] 2 [Guid] 3710352184 [EditorId] 3710352184 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GCQLO8P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [36040] Host "[IP] 192.168.50.101 [Port] 0 [Flags] 2 [Guid] 3710352184 [EditorId] 3710352184 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GCQLO8P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 505.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.2.9f1 (1cc571a6ec95)
+[Subsystems] Discovering subsystems at path E:/Unity/2022.2.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Gits/voxLand/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 SUPER (ID=0x1e84)
+    Vendor:   NVIDIA
+    VRAM:     8003 MB
+    Driver:   31.0.15.3699
+Initialize mono
+Mono path[0] = 'E:/Unity/2022.2.9f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/2022.2.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/Unity/2022.2.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/2022.2.9f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: E:/Unity/2022.2.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.241699 seconds.
+- Loaded All Assemblies, in  5.048 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 470 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.805 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4231ms)
+		BeginReloadAssembly (3620ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		LoadAllAssembliesAndSetupDomain (0ms)
+			LoadAssemblies (3620ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (813ms)
+				TypeCache.Initialize (812ms)
+					TypeCache.ScanAssembly (811ms)
+				ResolveRequiredComponents (0ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (759ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (627ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.915 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/StdLib.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVOUpsample.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Distortion.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture3DLerp.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DeferredFog.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/TemporalAntialiasing.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FastApproximateAntialiasing.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Dithering.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Bloom.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Sampling.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromTexArray.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut3DBaker.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Waveform.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/PSSL.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/LightMeter.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/AutoExposure.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVORender.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Texture2DLerp.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasingBridge.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiskKernels.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D11.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample2.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVO.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Vectorscope.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D9.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScalableAO.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/ACES.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/FinalPass.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Histogram.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/Switch.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/Metal.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Uber.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/xRLib.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStdFromDoubleWide.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Debug/Overlays.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/PSP2.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DiscardAlpha.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/OpenGL.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Lut2DBaker.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/CopyStd.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.textmeshpro/Editor Resources/Shaders/TMP_SDF_SSD.cginc' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MotionBlur.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.textmeshpro/Editor Resources/Shaders/TMP_Properties.cginc' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/MultiScaleVODownsample1.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Fog.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ExposureHistogram.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.textmeshpro/Editor Resources/Shaders/TMP_SDF Internal Editor.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GrainBaker.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/GaussianDownsample.compute' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/ScreenSpaceReflections.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/XboxOne.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/Copy.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/D3D12.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/DepthOfField.shader' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Builtins/SubpixelMorphologicalAntialiasing.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/API/Vulkan.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Script 'Packages/com.unity.postprocessing/PostProcessing/Shaders/Colors.hlsl' will not be compiled because it exists outside the Assets folder and does not to belong to any assembly definition file.
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.589 seconds
+Domain Reload Profiling:
+	ReloadAssembly (186ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		LoadAllAssembliesAndSetupDomain (3729ms)
+			LoadAssemblies (3395ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+				TypeCache.Initialize (379ms)
+					TypeCache.ScanAssembly (376ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (446ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1759 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (1.6 MB). Loaded Objects now: 2257.
+Memory consumption went from 328.0 MB to 326.3 MB.
+Total: 4.174600 ms (FindLiveObjects: 0.182600 ms CreateObjectMapping: 0.051200 ms MarkObjects: 3.477500 ms  DeleteObjects: 0.462400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.499 seconds
+Domain Reload Profiling:
+	ReloadAssembly (255ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		LoadAllAssembliesAndSetupDomain (266ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (178ms)
+				TypeCache.Initialize (173ms)
+					TypeCache.ScanAssembly (170ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (33ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.6 MB). Loaded Objects now: 2260.
+Memory consumption went from 313.3 MB to 311.7 MB.
+Total: 4.792000 ms (FindLiveObjects: 0.455200 ms CreateObjectMapping: 0.100000 ms MarkObjects: 3.431600 ms  DeleteObjects: 0.803100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.536 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling:
+	ReloadAssembly (260ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		LoadAllAssembliesAndSetupDomain (276ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (180ms)
+				TypeCache.Initialize (176ms)
+					TypeCache.ScanAssembly (172ms)
+				ResolveRequiredComponents (4ms)
+		FinalizeReload (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (0ms)
+			SetupLoadedEditorAssemblies (346ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (3ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1695 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (1.6 MB). Loaded Objects now: 2263.
+Memory consumption went from 313.1 MB to 311.5 MB.
+Total: 7.118600 ms (FindLiveObjects: 0.248200 ms CreateObjectMapping: 0.066600 ms MarkObjects: 4.774900 ms  DeleteObjects: 2.027300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+========================================================================
+Received Import Request.
+  Time since last request: 245039.711104 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-25_comp_shadowmask.png
+  artifactKey: Guid(ed36546f425748d4b919df4975182819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-25_comp_shadowmask.png using Guid(ed36546f425748d4b919df4975182819) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c17871c7a27e9719f873a11a19e074') in 0.062150 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-27_comp_light.exr
+  artifactKey: Guid(2daff9036173fe04b818b0c18b8a7b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-27_comp_light.exr using Guid(2daff9036173fe04b818b0c18b8a7b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5450bb22e71dca12f9d3fe83b35c399') in 0.030393 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-28_comp_dir.png
+  artifactKey: Guid(c81cbffc5df650a4d9bd0ceb2f135b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-28_comp_dir.png using Guid(c81cbffc5df650a4d9bd0ceb2f135b7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fa7c3b00fd3af25282ba00c57fbdd3') in 0.017528 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-26_comp_light.exr
+  artifactKey: Guid(e5ea8c1516050be4f91df2f0cb5ae5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-26_comp_light.exr using Guid(e5ea8c1516050be4f91df2f0cb5ae5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46e768ae5b88695b2b8872787eea0b3e') in 0.023251 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-26_comp_dir.png
+  artifactKey: Guid(5c9d832721e371a4d88c5d5f9904f7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-26_comp_dir.png using Guid(5c9d832721e371a4d88c5d5f9904f7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4188da8c65909cd3378990287486c60c') in 0.035636 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-29_comp_dir.png
+  artifactKey: Guid(c29c738252b416d469d3ac18a03ec34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-29_comp_dir.png using Guid(c29c738252b416d469d3ac18a03ec34c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c547158b57df8373c5f3e0e1b7a5ac19') in 0.021173 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.171334 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-30_comp_light.exr
+  artifactKey: Guid(9a38b5ffd3aae5a4293edee07f4b3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-30_comp_light.exr using Guid(9a38b5ffd3aae5a4293edee07f4b3015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d98c066e1ebef30bfd454b0411377d2') in 0.005505 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-30_comp_shadowmask.png
+  artifactKey: Guid(1b9d985b05d286641b52637fa0b43a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-30_comp_shadowmask.png using Guid(1b9d985b05d286641b52637fa0b43a07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5377684829e686d89c3baa9b5d2c47') in 0.011887 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001404 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-31_comp_light.exr
+  artifactKey: Guid(93606ed03020cee4cb7523fe5fafe5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-31_comp_light.exr using Guid(93606ed03020cee4cb7523fe5fafe5c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd666d392ac072a7b085de683bafc3be6') in 0.004522 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-31_comp_shadowmask.png
+  artifactKey: Guid(83b31ebd9b1852c44a64ead83b2e019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-31_comp_shadowmask.png using Guid(83b31ebd9b1852c44a64ead83b2e019a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182faa05c8dddd129f2f2d82d5b3b9be') in 0.007142 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005753 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-32_comp_light.exr
+  artifactKey: Guid(bbc42f6f958caf641997dd3ff097e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-32_comp_light.exr using Guid(bbc42f6f958caf641997dd3ff097e038) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb1f365fadc41dae98d320fdba1248ac') in 0.004307 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-32_comp_shadowmask.png
+  artifactKey: Guid(0d585512176344946b6c14dfabc1ac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-32_comp_shadowmask.png using Guid(0d585512176344946b6c14dfabc1ac18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43332260abe79ade45a8a19f2f15c03f') in 0.005852 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.008143 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-33_comp_light.exr
+  artifactKey: Guid(2922b01f63fab4a489a86e0ad8b30a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-33_comp_light.exr using Guid(2922b01f63fab4a489a86e0ad8b30a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03ea4d2239590155d535bb2c65e1ba81') in 0.004526 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-33_comp_shadowmask.png
+  artifactKey: Guid(38a25ed9e12412a47944badf7d62022c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-33_comp_shadowmask.png using Guid(38a25ed9e12412a47944badf7d62022c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cbff2048b69aa4151d5910cad33c912') in 0.015885 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-34_comp_light.exr
+  artifactKey: Guid(93cd67b1905a0d9429000a1bb3f38056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-34_comp_light.exr using Guid(93cd67b1905a0d9429000a1bb3f38056) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c0e18b50c3d90bed1713ee40df5a12') in 0.004801 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-34_comp_shadowmask.png
+  artifactKey: Guid(7828d1990c49fe848aab30973d7c718d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-34_comp_shadowmask.png using Guid(7828d1990c49fe848aab30973d7c718d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89e8d5cbe05b963c788e1007e0c70fe') in 0.006419 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004590 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-35_comp_light.exr
+  artifactKey: Guid(dda31ce4b7ec01e46a23c7295ec37bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-35_comp_light.exr using Guid(dda31ce4b7ec01e46a23c7295ec37bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b92b9d00e10d2737b7d4704d3f4e7a') in 0.014580 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.046680 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-36_comp_light.exr
+  artifactKey: Guid(29581f8eb10454543add3175f729d26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-36_comp_light.exr using Guid(29581f8eb10454543add3175f729d26e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad86e5092ed7db478310837c8f760567') in 0.012461 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-37_comp_dir.png
+  artifactKey: Guid(54ff32df767ec1f47a5c969b9e299dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-37_comp_dir.png using Guid(54ff32df767ec1f47a5c969b9e299dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fed4a940f4094e911c45e4054ab2170') in 0.011600 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-37_comp_shadowmask.png
+  artifactKey: Guid(3546181f306073d42af25ed6c777be8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-37_comp_shadowmask.png using Guid(3546181f306073d42af25ed6c777be8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775477210157c48cd3dffd3ceed8ae9b') in 0.006263 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006488 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-38_comp_light.exr
+  artifactKey: Guid(5abb6e549d4fe3b4f81cf343efe00891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-38_comp_light.exr using Guid(5abb6e549d4fe3b4f81cf343efe00891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9eaef0379800791860b124951b13012') in 0.005348 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-38_comp_shadowmask.png
+  artifactKey: Guid(e05a7639123956b4490692396ecbd755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-38_comp_shadowmask.png using Guid(e05a7639123956b4490692396ecbd755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4b1e1d0c0888ef2f8f0e0f17242f44') in 0.006365 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005676 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-39_comp_light.exr
+  artifactKey: Guid(41fe51acba088a0438874cbec6b2d80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-39_comp_light.exr using Guid(41fe51acba088a0438874cbec6b2d80c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da9ccf74be3b56c90265d6bc12c74a8a') in 0.004493 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001233 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-39_comp_shadowmask.png
+  artifactKey: Guid(56d763bdd2f57ce4a817f9c4686ad6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-39_comp_shadowmask.png using Guid(56d763bdd2f57ce4a817f9c4686ad6eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e665e59fa2008c7cf7f910501ea0a6a') in 0.007255 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006454 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-40_comp_light.exr
+  artifactKey: Guid(14780883b1b765c48abaac14dec8e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-40_comp_light.exr using Guid(14780883b1b765c48abaac14dec8e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3640069d32cd2b87e22cfe9f06596891') in 0.012341 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-41_comp_dir.png
+  artifactKey: Guid(0df2ad5dba7f0134f9cdff60c45baa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-41_comp_dir.png using Guid(0df2ad5dba7f0134f9cdff60c45baa51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fe9ad525ad5279fd41da42b6899f366') in 0.013437 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-41_comp_shadowmask.png
+  artifactKey: Guid(07879c5b6d5ea254385f53d429e9a5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-41_comp_shadowmask.png using Guid(07879c5b6d5ea254385f53d429e9a5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e8cc76fd6ef9e94fc1d0a0387a13415') in 0.013371 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.010725 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-42_comp_light.exr
+  artifactKey: Guid(4fcfb62f82dc9c44d8831f364e142b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-42_comp_light.exr using Guid(4fcfb62f82dc9c44d8831f364e142b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4c732120f1110b613f51d28e8a7719') in 0.004591 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-42_comp_shadowmask.png
+  artifactKey: Guid(899dd387e13b7da43b427639d1eda978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-42_comp_shadowmask.png using Guid(899dd387e13b7da43b427639d1eda978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7ab68e8a47d2dd2b1b1d26477d4024f') in 0.005721 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005402 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-43_comp_light.exr
+  artifactKey: Guid(a1272ea57225595489b07277fac021a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-43_comp_light.exr using Guid(a1272ea57225595489b07277fac021a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4929d6445ff65671fdace86b547ec85') in 0.004930 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-43_comp_shadowmask.png
+  artifactKey: Guid(a9d6483b552e1494eaabdf25375ff5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-43_comp_shadowmask.png using Guid(a9d6483b552e1494eaabdf25375ff5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7514786b4dff34834c7b1e9de8c14fb8') in 0.006111 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005022 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-44_comp_light.exr
+  artifactKey: Guid(386e374bac70a68408887e42cbaa4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-44_comp_light.exr using Guid(386e374bac70a68408887e42cbaa4e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2774cb3dd75ee740476b402bd7fca37c') in 0.004399 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007782 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-45_comp_dir.png
+  artifactKey: Guid(9f33f7ceb34ee45408035f4811619689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-45_comp_dir.png using Guid(9f33f7ceb34ee45408035f4811619689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92863f21a4055fa9199d7f30a202134f') in 0.011748 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.013427 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-46_comp_light.exr
+  artifactKey: Guid(0752a88950407e544a2efecce212e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-46_comp_light.exr using Guid(0752a88950407e544a2efecce212e697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315c38852b3b55f16943b498f3fe9d7c') in 0.004692 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-46_comp_shadowmask.png
+  artifactKey: Guid(3a1cc0f8f76b2874c94d3d5b0b9a7cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-46_comp_shadowmask.png using Guid(3a1cc0f8f76b2874c94d3d5b0b9a7cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74b13c4da685188fd9fbc3d2f9c6d475') in 0.005651 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006425 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-47_comp_light.exr
+  artifactKey: Guid(76c781987cda4894c982c42090649c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-47_comp_light.exr using Guid(76c781987cda4894c982c42090649c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2503dd2fae55c20c5b1ffc4992c62c') in 0.004724 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-47_comp_shadowmask.png
+  artifactKey: Guid(a3dd61189f34c444a81bfbba87218402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-47_comp_shadowmask.png using Guid(a3dd61189f34c444a81bfbba87218402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b30ca7c1d80b3357a037b2d0238535a') in 0.006427 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.194328 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-48_comp_shadowmask.png
+  artifactKey: Guid(a9f57af02e27bd34793e842567250ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-48_comp_shadowmask.png using Guid(a9f57af02e27bd34793e842567250ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd0e198ac650a3fde08c71a90adeccf') in 0.007858 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006893 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-49_comp_light.exr
+  artifactKey: Guid(e6c057e3270dfa046b6093ec38dba843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-49_comp_light.exr using Guid(e6c057e3270dfa046b6093ec38dba843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6fc674eae6d008960a0db92184e17a') in 0.006453 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.015658 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-50_comp_light.exr
+  artifactKey: Guid(8e7a703450f997d4fabd6be290fb3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-50_comp_light.exr using Guid(8e7a703450f997d4fabd6be290fb3ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bfd1e6e6f935352249dd53f3a07e83c') in 0.005997 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-50_comp_shadowmask.png
+  artifactKey: Guid(76417e876d44443409956f8c80fee33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-50_comp_shadowmask.png using Guid(76417e876d44443409956f8c80fee33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47247b282e9e66bf791e68be5c68e94b') in 0.008466 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006682 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-51_comp_light.exr
+  artifactKey: Guid(7fa46ca9218670849b877efffb438bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-51_comp_light.exr using Guid(7fa46ca9218670849b877efffb438bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1b4937bff9da3a481bfd53adaa2866') in 0.006886 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.050470 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-53_comp_shadowmask.png
+  artifactKey: Guid(90e4f025bad00714eac9bb6c41508f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-53_comp_shadowmask.png using Guid(90e4f025bad00714eac9bb6c41508f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df125af46cde443baefcd2259355161e') in 0.008478 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.025995 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-54_comp_shadowmask.png
+  artifactKey: Guid(d20c20d44c9fc704bb881550af75b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-54_comp_shadowmask.png using Guid(d20c20d44c9fc704bb881550af75b97b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c6202441910a4b26387ff98588cec0d') in 0.007633 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.095866 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-59_comp_shadowmask.png
+  artifactKey: Guid(675fb7d6c0842a0449831f0cb31cafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-59_comp_shadowmask.png using Guid(675fb7d6c0842a0449831f0cb31cafcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f04a70016d864c5c9bdfd0d42a02c36') in 0.014683 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.727069 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-60_comp_shadowmask.png
+  artifactKey: Guid(01d145662204bed4cbb2cf5b746439e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-60_comp_shadowmask.png using Guid(01d145662204bed4cbb2cf5b746439e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '782f3fe4dc9e6e81217c51257cddb11e') in 0.007015 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012871 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-61_comp_shadowmask.png
+  artifactKey: Guid(71ea922af7e70c54d8f4395812f83b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-61_comp_shadowmask.png using Guid(71ea922af7e70c54d8f4395812f83b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b50ec9783fecb55de04b9b519aadb63') in 0.014567 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.065218 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-65_comp_shadowmask.png
+  artifactKey: Guid(e00ab12c8d322714cafaf55a532eb9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-65_comp_shadowmask.png using Guid(e00ab12c8d322714cafaf55a532eb9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9407ffa88ff0d9bf6c015bcf2692953b') in 0.006933 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.023088 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-66_comp_shadowmask.png
+  artifactKey: Guid(316c1d5876e298f4abce513293385f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-66_comp_shadowmask.png using Guid(316c1d5876e298f4abce513293385f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d056e5be92cfc6b420dabaf4b1b24a8') in 0.006615 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011117 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-67_comp_shadowmask.png
+  artifactKey: Guid(c77a80d901277b44d8a2ba55b28b2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-67_comp_shadowmask.png using Guid(c77a80d901277b44d8a2ba55b28b2581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bef958d5b7c0e2dbb7a791b24835775') in 0.006186 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.052075 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-70_comp_shadowmask.png
+  artifactKey: Guid(31ac39c4fec1a074fab444180c103d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-70_comp_shadowmask.png using Guid(31ac39c4fec1a074fab444180c103d2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9f618f3bd880e296dcebde4f2014f2') in 0.006692 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.031425 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-72_comp_shadowmask.png
+  artifactKey: Guid(316f9f9231924e84faab24a4b1152cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-72_comp_shadowmask.png using Guid(316f9f9231924e84faab24a4b1152cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71468d90efb2e630d99eb1117cd0e63e') in 0.007085 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012082 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-73_comp_shadowmask.png
+  artifactKey: Guid(c870e5669b58d6c4092650cc6c3b9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-73_comp_shadowmask.png using Guid(c870e5669b58d6c4092650cc6c3b9210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd75c04524d0d7882be7642e7dbc2a690') in 0.006173 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012936 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-74_comp_shadowmask.png
+  artifactKey: Guid(132616fc0f47095438e4ede1fddfbcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-74_comp_shadowmask.png using Guid(132616fc0f47095438e4ede1fddfbcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1590d554c25dbe1a047e79ff9d4cc3eb') in 0.006835 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.012186 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-75_comp_shadowmask.png
+  artifactKey: Guid(ffb6fe32609a74f4b9a0285ee1cb4b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-75_comp_shadowmask.png using Guid(ffb6fe32609a74f4b9a0285ee1cb4b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3c8faf6174099ae9ea38c7a4374a4a') in 0.006313 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011055 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-76_comp_shadowmask.png
+  artifactKey: Guid(813440a0451009946befe08d19484756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-76_comp_shadowmask.png using Guid(813440a0451009946befe08d19484756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9051c86706145a4797a8667ad5cc8c14') in 0.006866 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.050794 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-79_comp_shadowmask.png
+  artifactKey: Guid(96ec6030869a25447bb399bf43005a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-79_comp_shadowmask.png using Guid(96ec6030869a25447bb399bf43005a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41116be61201be21b8417582bc489304') in 0.006511 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011894 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-80_comp_shadowmask.png
+  artifactKey: Guid(74fbebfcd79a1904e8b41556fc5557c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-80_comp_shadowmask.png using Guid(74fbebfcd79a1904e8b41556fc5557c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a91624a86b7697b0a4605f039ffa386') in 0.006607 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.011585 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-81_comp_shadowmask.png
+  artifactKey: Guid(28f77ba6aad0e604da9a6485d7336b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-81_comp_shadowmask.png using Guid(28f77ba6aad0e604da9a6485d7336b01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b11ca6be05dd0fa3c1cdee7525701672') in 0.006899 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.009902 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-82_comp_shadowmask.png
+  artifactKey: Guid(ffd912d34b817e44aaffb5f2021a353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-82_comp_shadowmask.png using Guid(ffd912d34b817e44aaffb5f2021a353c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4afe2003bca56c021888df5d6a38b09c') in 0.006928 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.046319 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-84_comp_shadowmask.png
+  artifactKey: Guid(d0f1ac815dee1164da90e7d71f2e3d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-84_comp_shadowmask.png using Guid(d0f1ac815dee1164da90e7d71f2e3d2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c487283c9a4ad686ebbcf14b29c9ad') in 0.013447 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005206 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-85_comp_shadowmask.png
+  artifactKey: Guid(7029d704c128f2e49985ad8291abc57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-85_comp_shadowmask.png using Guid(7029d704c128f2e49985ad8291abc57c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c360a06933758cf29adec0350127bb6') in 0.013905 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004853 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-86_comp_shadowmask.png
+  artifactKey: Guid(dc982ed224e94024f89cb9039b068f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-86_comp_shadowmask.png using Guid(dc982ed224e94024f89cb9039b068f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a330d283961cf9b0569634e162c1ade6') in 0.007180 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.018336 seconds.
+  path: Assets/Sandbox/terrain/Lightmap-88_comp_dir.png
+  artifactKey: Guid(3925811f67738a64084f7d20ce76ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sandbox/terrain/Lightmap-88_comp_dir.png using Guid(3925811f67738a64084f7d20ce76ae00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159c23d1bbc5f86df25602ab2f3fd798') in 0.012277 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.765591 seconds.
+  path: Assets/Prefabs/Terrain/Stones/stoneMedium01.prefab
+  artifactKey: Guid(c627b07cf5706e04a867277b1994c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain/Stones/stoneMedium01.prefab using Guid(c627b07cf5706e04a867277b1994c850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d7dcc06aaabc2e0927336be3e0dd494') in 0.057165 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.273759 seconds.
+  path: Assets/Prefabs/Terrain/Trees/treeMedium02.prefab
+  artifactKey: Guid(0d1e879792f97ec47935183c10456ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain/Trees/treeMedium02.prefab using Guid(0d1e879792f97ec47935183c10456ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3024e44cf0b5a6a1f15fcb583c547087') in 0.014938 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 13.550150 seconds.
+  path: Assets/Prefabs/Terrain/Roads/roadStraight01.prefab
+  artifactKey: Guid(837893ca33fc40e4fa4dcf1f08f3e3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain/Roads/roadStraight01.prefab using Guid(837893ca33fc40e4fa4dcf1f08f3e3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55309e03d810b8d719caedb0d9e6fac') in 0.016199 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 1.204668 seconds.
+  path: Assets/Prefabs/Terrain/Flat/sandGrassEdgeCorner.prefab
+  artifactKey: Guid(6631edc73bfe31c43bfaa415d4bd9a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain/Flat/sandGrassEdgeCorner.prefab using Guid(6631edc73bfe31c43bfaa415d4bd9a25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddee870ce59838237a08a24ca9f2c5cd') in 0.017938 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 9.322140 seconds.
+  path: Assets/Prefabs/Terrain/Elevation/grassElevationStraight02.prefab
+  artifactKey: Guid(7e6c578a2c293a6428dbd6b6f7979bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain/Elevation/grassElevationStraight02.prefab using Guid(7e6c578a2c293a6428dbd6b6f7979bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '928e612cfede80918f94cb87ecc60fbe') in 0.016057 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.012771 seconds.
+  path: Assets/Prefabs/Terrain/Elevation/stoneElevationCorner.prefab
+  artifactKey: Guid(6248f33e8f973c94faa616b8cd8ae625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Terrain/Elevation/stoneElevationCorner.prefab using Guid(6248f33e8f973c94faa616b8cd8ae625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f7bd127eecc9d21612c189938df654f') in 0.015728 seconds 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
