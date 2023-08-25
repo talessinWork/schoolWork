@@ -17,7 +17,7 @@ public class TeleToPoint : StateMachineBehaviour
             AudioSource.PlayClipAtPoint(clip, ai.transform.position);
         }
         ai.transform.position = destination;
-        ai.agent.Warp(destination);
+        ai.Agent.Warp(destination);
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks

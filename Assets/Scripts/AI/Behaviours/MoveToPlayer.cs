@@ -7,21 +7,27 @@ public class MoveToPlayer : StateMachineBehaviour
 {
     AIInterface ai;
     Damagable dmg;
+    Movement movement;
 
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         ai = animator.gameObject.GetComponent<AIInterface>();
         dmg = animator.gameObject.GetComponent<Damagable>();
-        ai.TargetPlayer();
         dmg.bossActive = true;
+        ai.TargetPlayer();
+
+
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
-    //override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
-    //{
+    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        ai.Movement.moveVec = ai.Agent.desiredVelocity.normalized;
+        ai.Agent.SetDestination(ai.Player.transform.position);
+        ai.Agent.nextPosition = ai.transform.position;
 
-    //}
+    }
 
     // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

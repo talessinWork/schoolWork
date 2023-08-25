@@ -40,8 +40,7 @@ public class Damagable : MonoBehaviour
     public bool died;
     float smoothColor;
     bool damaged;
-    RestartGame restart;
-    EndMenu endMenu;
+    public EndMenu endMenu;
     
     
     // Start is called before the first frame update
@@ -71,8 +70,6 @@ public class Damagable : MonoBehaviour
         smoothColor = 5f;
         damaged = false;
         
-
-        restart = gameObject.GetComponent<RestartGame>();
     }
 
     // Update is called once per frame

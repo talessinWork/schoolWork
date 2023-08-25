@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 using TMPro;
@@ -139,6 +139,16 @@ namespace SlimUI.ModernMenu{
 
 		public void LoadScene(string scene){
 			if(scene != ""){
+				if(!PlayerPrefs.HasKey("FirstRun"))
+				{
+					PlayerPrefs.SetInt("FirstRun",1);
+					PlayerPrefs.Save();
+				}
+				else{
+					PlayerPrefs.DeleteKey("FirstRun");
+				}
+				
+				
 				StartCoroutine(LoadAsynchronously(scene));
 			}
 		}
@@ -148,6 +158,7 @@ namespace SlimUI.ModernMenu{
 		}
 
 		public void Position2(){
+			DisablePlayCampaign();
 			CameraObject.SetFloat("Animate",1);
 		}
 

@@ -42,10 +42,13 @@
   <ItemGroup>
      <Compile Include="Assets\Thirdparty\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
      <Compile Include="Assets\Scripts\Editor\Chunks\ChunkManager.cs" />
+     <Compile Include="Assets\MT Assets\Easy Minimap System\Editor\Greetings.cs" />
      <Compile Include="Assets\Thirdparty\Standard Assets\Editor\Water\Water4\GerstnerDisplaceEditor.cs" />
      <Compile Include="Assets\Thirdparty\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
      <Compile Include="Assets\Thirdparty\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
      <Compile Include="Assets\Thirdparty\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
+     <Compile Include="Assets\MT Assets\Easy Minimap System\Editor\Menu.cs" />
+     <Compile Include="Assets\MT Assets\Easy Minimap System\Editor\AssetsProcessors\EasyMinimapSystemScans.cs" />
      <Compile Include="Assets\Thirdparty\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
      <Compile Include="Assets\Thirdparty\Standard Assets\Editor\Water\Water4\PlanarReflectionEditor.cs" />
      <Compile Include="Assets\Thirdparty\Standard Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
